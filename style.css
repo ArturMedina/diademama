@@ -68,7 +68,7 @@ body a:hover
 {    
     transition: background-color .2s linear;
     z-index: 99 !important;
-    background-color: #221C5A;
+    background-color: #7c5cae;
     width: 100% !important;
     top: 0;
     position: fixed;
@@ -221,7 +221,7 @@ body a:hover
     line-height: 100%;
     text-transform: uppercase;
     margin-top: -75px;
-    color: #221c5a;    
+    color: #7c5cae;    
 }
 
 .extra-content-left
@@ -259,8 +259,8 @@ body a:hover
 {
     padding-bottom: 170px;
     min-height: calc(100vh - 170px);
-    background-color: #221c5a; 
-    background-image:url(demo-images/background_img_01b.jpg); 
+    background-color: #7c5cae; 
+    background-image:url(demo-images/background_img_01a.png); 
     background-repeat: repeat; 
     background-position: center top; 
     background-size: cover;
@@ -297,6 +297,16 @@ h1.big-title
     font-family: 'PT Serif', serif;
     font-size: 22px;
     line-height: 26px;
+    max-width: 333px; 
+    margin: 0 auto;
+    color: #fff;
+}
+
+.title-desc2
+{
+    font-family: 'PT Serif', serif;
+    font-size: 16px;
+    line-height: 22px;
     max-width: 333px; 
     margin: 0 auto;
     color: #fff;
